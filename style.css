@@ -1,37 +1,53 @@
-body{
+body {
     background-color: rgb(220, 241, 200);
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: center;
 }
 
-.card{
-        background-color:rgb(183, 228, 241);
-        margin: 20px;
-        justify-content: center;
-        align-items: center;
-        transition: 0.3s;
-        border-radius: 15px;
-        width:  300px;      
-        max-width: 90%;
-        box-shadow: 0 5px 15px rgb(109, 133, 139);
-        padding: 20px;
-        
-    }
+.card {
+    background-color: rgb(183, 228, 241);
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    border-radius: 15px;
+    width: 300px;
+    max-width: 90%;
+    box-shadow: 0 5px 15px rgb(109, 133, 139);
+    padding: 20px;
+
+}
 
 
-    .card:hover{
+.card:hover {
     background-color: #e6effc;
     margin: 15px;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgb(109, 133, 139);
     transform: translateY(-3px);
     background-image: src;
-    }
+}
 
-nav{
+.insideCard {
+    background-color: rgb(183, 228, 241);
+    margin: 20px;
+    transform: translateX(-20px);
+    transition: 0.3s;
+    border-radius: 15px;
+    width: 300px;
+    max-width: 90%;
+    box-shadow: 0 5px 15px rgb(109, 133, 139);
+    padding: 20px;
+}
+
+.insideCard:hover {
+    background-color: rgb(168, 205, 255);
+}
+
+nav {
     margin: 0px;
     display: flex;
     position: sticky;
