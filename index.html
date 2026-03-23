@@ -59,16 +59,64 @@
                         </div>
                     </details>
                 </div>
+                <div class="insideCard">
+                    <details>
+                        <summary>Label</summary>
+                        Label é uma tag de acessibilidade, ela serve para ser falada em voz alta e para servir como
+                        redirecionamento
+                        para a caixa de inserção de dados quando for clicada
+                    </details>
+                </div>
             </details>
         </div>
     </div>
-    <div id="Forms">
-        <form>
-            <fieldset>
-                <label for="nome">Nome:</label>
-            </fieldset>
-        </form>
+    <div class="flex">
+        <h2>EXEMPLO:</h2>
     </div>
-</body>
+    <div class="flex">
 
+
+        <div id="Forms">
+            <form>
+                <fieldset>
+                    <h3><b>Cadastro:</b></h3>
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="João"> 
+                    <br><br>
+
+                    <label for="senha">Senha:</label>
+                    <input type="text" id="senha" placeholder="123"> 
+                    <br><br>
+
+                    <label for="descricao">Descrição:</label>
+                    <textarea id="descricao" placeholder="sou bonito, jogo bola e danço"></textarea>
+                    <br><br>
+
+                    <label for="cor-fav">Cor Favorita:</label>
+                    <select id="cor-fav">
+                        <option>Azul</option>
+                        <option>Vermelho</option>
+                        <option>Verde</option>
+                        <option>Amarelo</option>
+                        <option>Outro</option>
+                    </select>
+                    <br>
+
+                    <h5><b>Gênero:</b></h5>
+                    <input type="radio" id="masculino" name="genero" value="Masculino">
+                    <label for="masculino">Masculino</label><br>
+                    
+                    <input type="radio" id="feminino" name="genero"  value="Feminino">
+                    <label for="feminino">Feminino</label><br>
+
+                    <input type="radio" id="outro" name="genero"  value="Outro">
+                    <label for="outro">Outro / Não informar</label><br>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+</body>
+<footer></footer>
 </html>

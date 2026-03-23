@@ -57,3 +57,16 @@ nav {
     background-color: rgba(93, 230, 248, 0.452);
     border-radius: 20px;
 }
+
+#Forms{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 19%;
+    padding: 0px;
+    margin: 0;
+}
+
+footer{
+    padding: 20px;
+}
