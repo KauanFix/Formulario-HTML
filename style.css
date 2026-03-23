@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(220, 241, 200);
+    background-color: rgb(203, 150, 216);
 }
 
 .flex {
@@ -8,7 +8,7 @@ body {
 }
 
 .card {
-    background-color: rgb(183, 228, 241);
+    background-color: rgb(250, 160, 228);
     margin: 20px;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@ body {
 
 
 .card:hover {
-    background-color: #e6effc;
+    background-color: #a1d4f1;
     margin: 15px;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgb(109, 133, 139);
@@ -32,7 +32,7 @@ body {
 }
 
 .insideCard {
-    background-color: rgb(183, 228, 241);
+    background-color: rgb(227, 145, 235);
     margin: 20px;
     transform: translateX(-20px);
     transition: 0.3s;
@@ -44,7 +44,7 @@ body {
 }
 
 .insideCard:hover {
-    background-color: rgb(168, 205, 255);
+    background-color: rgb(204, 124, 211);
 }
 
 nav {
@@ -54,6 +54,6 @@ nav {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: rgb(172, 194, 151);
+    background-color: rgba(93, 230, 248, 0.452);
     border-radius: 20px;
 }
